@@ -10,6 +10,8 @@
 [![Chocolatey downloads](https://img.shields.io/chocolatey/dt/yor?label=chocolatey_downloads)](https://community.chocolatey.org/packages/yor)
 [![GitHub All Releases](https://img.shields.io/github/downloads/bridgecrewio/yor/total)](https://github.com/itoworld/yor/releases)
 
+This is a fork of the original [Yor](https://github.com/bridgecrewio/yor) project. The original project is no longer maintained and has many open issues and pull requests that are not being addressed. This fork improves the speed of the tool by using native git blame instead of go-git.
+
 Yor is an open-source tool that helps add informative and consistent tags across infrastructure as code (IaC) frameworks. Today, Yor can automatically add tags to Terraform, CloudFormation, and Serverless Frameworks.
 
 Yor is built to run as a [GitHub Action](https://github.com/itoworld/yor-action) automatically adding consistent tagging logics to your IaC. Yor can also run as a pre-commit hook and a standalone CLI.
