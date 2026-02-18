@@ -48,7 +48,7 @@ run-yor:
   script:
     - git checkout ${CI_COMMIT_REF_NAME}
     - export YOR_VERSION=0.1.151
-    - wget -q -O - https://github.com/bridgecrewio/yor/releases/download/${YOR_VERSION}/yor_${YOR_VERSION}_linux_amd64.tar.gz | tar -xvz -C /tmp
+    - wget -q -O - https://github.com/itoworld/yor/releases/download/${YOR_VERSION}/yor_${YOR_VERSION}_linux_amd64.tar.gz | tar -xvz -C /tmp
     - /tmp/yor tag -d .
     - *git-script
 ```
@@ -87,7 +87,7 @@ You need to have the pre-commit package manager installed before you can run Pre
 
 Add a hook to your **.pre-commit-config.yaml** and change the args and version number.
 ```yaml
-  - repo: git://github.com/bridgecrewio/yor
+  - repo: git://github.com/itoworld/yor
     rev: 0.0.44
     hooks:
       - id: yor

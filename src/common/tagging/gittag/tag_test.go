@@ -4,9 +4,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/bridgecrewio/yor/src/common/gitservice"
-	"github.com/bridgecrewio/yor/src/common/tagging/tags"
-	"github.com/bridgecrewio/yor/tests/utils/blameutils"
+	"github.com/itoworld/yor/src/common/gitservice"
+	"github.com/itoworld/yor/src/common/tagging/tags"
+	"github.com/itoworld/yor/tests/utils/blameutils"
 
 	"github.com/stretchr/testify/assert"
 )

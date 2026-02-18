@@ -5,9 +5,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/bridgecrewio/yor/src/common/logger"
-	taggingUtils "github.com/bridgecrewio/yor/src/common/tagging/utils"
-	"github.com/bridgecrewio/yor/src/common/utils"
+	"github.com/itoworld/yor/src/common/logger"
+	taggingUtils "github.com/itoworld/yor/src/common/tagging/utils"
+	"github.com/itoworld/yor/src/common/utils"
 
 	"gopkg.in/validator.v2"
 )

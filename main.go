@@ -6,14 +6,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/bridgecrewio/yor/src/common"
-	"github.com/bridgecrewio/yor/src/common/clioptions"
-	"github.com/bridgecrewio/yor/src/common/logger"
-	"github.com/bridgecrewio/yor/src/common/reports"
-	"github.com/bridgecrewio/yor/src/common/runner"
-	"github.com/bridgecrewio/yor/src/common/tagging"
-	"github.com/bridgecrewio/yor/src/common/tagging/tags"
-	"github.com/bridgecrewio/yor/src/common/tagging/utils"
+	"github.com/itoworld/yor/src/common"
+	"github.com/itoworld/yor/src/common/clioptions"
+	"github.com/itoworld/yor/src/common/logger"
+	"github.com/itoworld/yor/src/common/reports"
+	"github.com/itoworld/yor/src/common/runner"
+	"github.com/itoworld/yor/src/common/tagging"
+	"github.com/itoworld/yor/src/common/tagging/tags"
+	"github.com/itoworld/yor/src/common/tagging/utils"
 	"github.com/urfave/cli/v2"
 )
 

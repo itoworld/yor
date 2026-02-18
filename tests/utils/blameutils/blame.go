@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bridgecrewio/yor/src/common/gitservice"
-	"github.com/bridgecrewio/yor/src/common/utils"
+	"github.com/itoworld/yor/src/common/gitservice"
+	"github.com/itoworld/yor/src/common/utils"
 
 	"github.com/go-git/go-git/v5"
 	"github.com/go-git/go-git/v5/plumbing"

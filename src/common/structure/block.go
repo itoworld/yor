@@ -3,7 +3,7 @@ package structure
 import (
 	"sort"
 
-	"github.com/bridgecrewio/yor/src/common/tagging/tags"
+	"github.com/itoworld/yor/src/common/tagging/tags"
 )
 
 type Lines struct {

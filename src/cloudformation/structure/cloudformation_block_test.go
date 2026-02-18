@@ -6,8 +6,8 @@ import (
 
 	goformationTags "github.com/awslabs/goformation/v5/cloudformation/tags"
 
-	"github.com/bridgecrewio/yor/src/common/structure"
-	"github.com/bridgecrewio/yor/src/common/tagging/tags"
+	"github.com/itoworld/yor/src/common/structure"
+	"github.com/itoworld/yor/src/common/tagging/tags"
 
 	"github.com/awslabs/goformation/v5"
 	"github.com/stretchr/testify/assert"

@@ -3,10 +3,10 @@ package structure
 import (
 	"testing"
 
-	"github.com/bridgecrewio/yor/src/common/structure"
-	"github.com/bridgecrewio/yor/src/common/tagging/code2cloud"
-	"github.com/bridgecrewio/yor/src/common/tagging/gittag"
-	"github.com/bridgecrewio/yor/src/common/tagging/tags"
+	"github.com/itoworld/yor/src/common/structure"
+	"github.com/itoworld/yor/src/common/tagging/code2cloud"
+	"github.com/itoworld/yor/src/common/tagging/gittag"
+	"github.com/itoworld/yor/src/common/tagging/tags"
 	"github.com/hashicorp/hcl/v2/hclsyntax"
 
 	"github.com/stretchr/testify/assert"

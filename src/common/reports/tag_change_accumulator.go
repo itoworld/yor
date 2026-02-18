@@ -3,7 +3,7 @@ package reports
 import (
 	"sync"
 
-	"github.com/bridgecrewio/yor/src/common/structure"
+	"github.com/itoworld/yor/src/common/structure"
 )
 
 type TagChangeAccumulator struct {

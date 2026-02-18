@@ -1,6 +1,6 @@
 package structure
 
-import "github.com/bridgecrewio/yor/src/common/logger"
+import "github.com/itoworld/yor/src/common/logger"
 
 type customTfLogger struct{}
 

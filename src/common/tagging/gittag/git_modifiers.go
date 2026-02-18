@@ -6,8 +6,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/bridgecrewio/yor/src/common/gitservice"
-	"github.com/bridgecrewio/yor/src/common/tagging/tags"
+	"github.com/itoworld/yor/src/common/gitservice"
+	"github.com/itoworld/yor/src/common/tagging/tags"
 )
 
 type GitModifiersTag struct {

@@ -3,11 +3,11 @@ package utils
 import (
 	"sort"
 
-	"github.com/bridgecrewio/yor/src/common/tagging"
-	"github.com/bridgecrewio/yor/src/common/tagging/code2cloud"
-	"github.com/bridgecrewio/yor/src/common/tagging/external"
-	"github.com/bridgecrewio/yor/src/common/tagging/gittag"
-	"github.com/bridgecrewio/yor/src/common/tagging/simple"
+	"github.com/itoworld/yor/src/common/tagging"
+	"github.com/itoworld/yor/src/common/tagging/code2cloud"
+	"github.com/itoworld/yor/src/common/tagging/external"
+	"github.com/itoworld/yor/src/common/tagging/gittag"
+	"github.com/itoworld/yor/src/common/tagging/simple"
 )
 
 type TagGroupName string

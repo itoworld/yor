@@ -5,8 +5,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/bridgecrewio/yor/src/common/logger"
-	"github.com/bridgecrewio/yor/tests/utils"
+	"github.com/itoworld/yor/src/common/logger"
+	"github.com/itoworld/yor/tests/utils"
 	"github.com/stretchr/testify/assert"
 )
 

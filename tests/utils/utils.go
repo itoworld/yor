@@ -6,7 +6,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/bridgecrewio/yor/src/common"
+	"github.com/itoworld/yor/src/common"
 	"github.com/go-git/go-git/v5"
 	"github.com/go-git/go-git/v5/plumbing"
 )

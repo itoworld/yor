@@ -5,8 +5,8 @@ import (
 	"fmt"
 
 	goformationTags "github.com/awslabs/goformation/v5/cloudformation/tags"
-	"github.com/bridgecrewio/yor/src/common/logger"
-	"github.com/bridgecrewio/yor/src/common/structure"
+	"github.com/itoworld/yor/src/common/logger"
+	"github.com/itoworld/yor/src/common/structure"
 )
 
 type CloudformationBlock struct {

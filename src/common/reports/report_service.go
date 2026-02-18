@@ -6,9 +6,9 @@ import (
 	"os"
 	"sort"
 
-	"github.com/bridgecrewio/yor/src/common"
-	"github.com/bridgecrewio/yor/src/common/logger"
-	"github.com/bridgecrewio/yor/src/common/tagging/tags"
+	"github.com/itoworld/yor/src/common"
+	"github.com/itoworld/yor/src/common/logger"
+	"github.com/itoworld/yor/src/common/tagging/tags"
 	"github.com/olekukonko/tablewriter"
 )
 

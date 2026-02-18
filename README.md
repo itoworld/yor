@@ -1,18 +1,18 @@
 <img src="https://raw.githubusercontent.com/bridgecrewio/yor/master/docs/yor-logo.png?" width="350">
 
 ![Coverage](https://img.shields.io/badge/Coverage-80.9%25-brightgreen)
-![golangci-lint](https://github.com/bridgecrewio/yor/workflows/tests/badge.svg)
-[![security](https://github.com/bridgecrewio/yor/actions/workflows/security.yml/badge.svg)](https://github.com/bridgecrewio/yor/actions/workflows/security.yml)
+![golangci-lint](https://github.com/itoworld/yor/workflows/tests/badge.svg)
+[![security](https://github.com/itoworld/yor/actions/workflows/security.yml/badge.svg)](https://github.com/itoworld/yor/actions/workflows/security.yml)
 [![slack-community](https://img.shields.io/badge/Slack-4A154B?style=plastic&logo=slack&logoColor=white)](https://codifiedsecurity.slack.com/)
-[![Go Report Card](https://goreportcard.com/badge/github.com/bridgecrewio/yor)](https://goreportcard.com/report/github.com/bridgecrewio/yor)
-[![Go Reference](https://pkg.go.dev/badge/github.com/bridgecrewio/yor.svg)](https://pkg.go.dev/github.com/bridgecrewio/yor)
+[![Go Report Card](https://goreportcard.com/badge/github.com/itoworld/yor)](https://goreportcard.com/report/github.com/itoworld/yor)
+[![Go Reference](https://pkg.go.dev/badge/github.com/itoworld/yor.svg)](https://pkg.go.dev/github.com/itoworld/yor)
 [![Docker pulls](https://img.shields.io/docker/pulls/bridgecrew/yor.svg)](https://hub.docker.com/r/bridgecrew/yor)
 [![Chocolatey downloads](https://img.shields.io/chocolatey/dt/yor?label=chocolatey_downloads)](https://community.chocolatey.org/packages/yor)
-[![GitHub All Releases](https://img.shields.io/github/downloads/bridgecrewio/yor/total)](https://github.com/bridgecrewio/yor/releases)
+[![GitHub All Releases](https://img.shields.io/github/downloads/bridgecrewio/yor/total)](https://github.com/itoworld/yor/releases)
 
 Yor is an open-source tool that helps add informative and consistent tags across infrastructure as code (IaC) frameworks. Today, Yor can automatically add tags to Terraform, CloudFormation, and Serverless Frameworks.
 
-Yor is built to run as a [GitHub Action](https://github.com/bridgecrewio/yor-action) automatically adding consistent tagging logics to your IaC. Yor can also run as a pre-commit hook and a standalone CLI.
+Yor is built to run as a [GitHub Action](https://github.com/itoworld/yor-action) automatically adding consistent tagging logics to your IaC. Yor can also run as a pre-commit hook and a standalone CLI.
 
 ## Features
 * Apply tags and labels on infrastructure as code directory
@@ -133,7 +133,7 @@ steps:
 
 Pre-commit
 ```yaml
-  - repo: https://github.com/bridgecrewio/yor
+  - repo: https://github.com/itoworld/yor
     rev: 0.1.143
     hooks:
       - id: yor

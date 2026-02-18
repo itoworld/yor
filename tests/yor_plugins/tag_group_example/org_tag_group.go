@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/bridgecrewio/yor/src/common/structure"
-	"github.com/bridgecrewio/yor/src/common/tagging"
-	"github.com/bridgecrewio/yor/src/common/tagging/tags"
+	"github.com/itoworld/yor/src/common/structure"
+	"github.com/itoworld/yor/src/common/tagging"
+	"github.com/itoworld/yor/src/common/tagging/tags"
 )
 
 type OrgTagGroup struct {

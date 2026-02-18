@@ -1,4 +1,4 @@
-module github.com/bridgecrewio/yor
+module github.com/itoworld/yor
 
 go 1.19
 

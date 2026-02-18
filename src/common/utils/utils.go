@@ -11,9 +11,9 @@ import (
 	"sync"
 	"unicode"
 
-	"github.com/bridgecrewio/yor/src/common"
-	"github.com/bridgecrewio/yor/src/common/logger"
-	"github.com/bridgecrewio/yor/src/common/structure"
+	"github.com/itoworld/yor/src/common"
+	"github.com/itoworld/yor/src/common/logger"
+	"github.com/itoworld/yor/src/common/structure"
 )
 
 // IntrinsicsLock protects all calls to goformation/intrinsics.ProcessYAML and

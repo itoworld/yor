@@ -10,8 +10,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/bridgecrewio/yor/src/common/logger"
-	"github.com/bridgecrewio/yor/src/common/structure"
+	"github.com/itoworld/yor/src/common/logger"
+	"github.com/itoworld/yor/src/common/structure"
 	"github.com/go-git/go-git/v5"
 	"github.com/go-git/go-git/v5/plumbing/object"
 	"github.com/go-git/go-git/v5/plumbing/transport"
@@ -95,7 +95,7 @@ func (g *GitService) setOrgAndName() error {
 	for _, remote := range remotes {
 		if remote.Config().Name == "origin" {
 			g.remoteURL = remote.Config().URLs[0]
-			// get endpoint structured like '/github.com/bridgecrewio/yor.git
+			// get endpoint structured like '/github.com/itoworld/yor.git
 			endpoint, err := transport.NewEndpoint(g.remoteURL)
 			if err != nil {
 				return err

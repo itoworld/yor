@@ -9,13 +9,13 @@ import (
 	"strings"
 
 	"github.com/bridgecrewio/goformation/v5/intrinsics"
-	"github.com/bridgecrewio/yor/src/common"
-	"github.com/bridgecrewio/yor/src/common/logger"
-	"github.com/bridgecrewio/yor/src/common/structure"
-	"github.com/bridgecrewio/yor/src/common/tagging/tags"
-	"github.com/bridgecrewio/yor/src/common/types"
-	"github.com/bridgecrewio/yor/src/common/utils"
-	yamlUtils "github.com/bridgecrewio/yor/src/common/yaml"
+	"github.com/itoworld/yor/src/common"
+	"github.com/itoworld/yor/src/common/logger"
+	"github.com/itoworld/yor/src/common/structure"
+	"github.com/itoworld/yor/src/common/tagging/tags"
+	"github.com/itoworld/yor/src/common/types"
+	"github.com/itoworld/yor/src/common/utils"
+	yamlUtils "github.com/itoworld/yor/src/common/yaml"
 )
 
 const FunctionTagsAttributeName = "tags"

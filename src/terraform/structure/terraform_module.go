@@ -7,8 +7,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/bridgecrewio/yor/src/common/logger"
-	"github.com/bridgecrewio/yor/src/common/utils"
+	"github.com/itoworld/yor/src/common/logger"
+	"github.com/itoworld/yor/src/common/utils"
 	"github.com/hashicorp/go-version"
 	"github.com/hashicorp/terraform-config-inspect/tfconfig"
 	"github.com/hashicorp/terraform/addrs"

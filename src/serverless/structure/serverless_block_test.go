@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/bridgecrewio/yor/src/common/structure"
-	"github.com/bridgecrewio/yor/src/common/tagging/tags"
+	"github.com/itoworld/yor/src/common/structure"
+	"github.com/itoworld/yor/src/common/tagging/tags"
 
 	"github.com/stretchr/testify/assert"
 )

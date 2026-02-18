@@ -6,11 +6,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/bridgecrewio/yor/src/common/json"
-	"github.com/bridgecrewio/yor/src/common/structure"
-	"github.com/bridgecrewio/yor/src/common/tagging/simple"
-	"github.com/bridgecrewio/yor/src/common/tagging/tags"
-	"github.com/bridgecrewio/yor/src/common/yaml"
+	"github.com/itoworld/yor/src/common/json"
+	"github.com/itoworld/yor/src/common/structure"
+	"github.com/itoworld/yor/src/common/tagging/simple"
+	"github.com/itoworld/yor/src/common/tagging/tags"
+	"github.com/itoworld/yor/src/common/yaml"
 	"github.com/stretchr/testify/assert"
 )
 

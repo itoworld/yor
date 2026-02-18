@@ -6,12 +6,12 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/bridgecrewio/yor/src/common/gitservice"
-	"github.com/bridgecrewio/yor/src/common/structure"
-	"github.com/bridgecrewio/yor/src/common/tagging"
-	"github.com/bridgecrewio/yor/src/common/tagging/tags"
-	"github.com/bridgecrewio/yor/src/common/utils"
-	"github.com/bridgecrewio/yor/tests/utils/blameutils"
+	"github.com/itoworld/yor/src/common/gitservice"
+	"github.com/itoworld/yor/src/common/structure"
+	"github.com/itoworld/yor/src/common/tagging"
+	"github.com/itoworld/yor/src/common/tagging/tags"
+	"github.com/itoworld/yor/src/common/utils"
+	"github.com/itoworld/yor/tests/utils/blameutils"
 	"github.com/stretchr/testify/assert"
 )
 
