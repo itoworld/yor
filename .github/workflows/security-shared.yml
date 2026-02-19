@@ -34,4 +34,4 @@ jobs:
       - name: detect secrets
         uses: trufflesecurity/trufflehog@v3.93.3
         with:
-          extra_args: --exclude-paths=.github/exclude-patterns.txt
+          extra_args: --only-verified --exclude-paths=.github/exclude-patterns.txt

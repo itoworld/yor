@@ -1,2 +1,3 @@
 docs/*
 tests/integration/integration_test.go
+*.so
